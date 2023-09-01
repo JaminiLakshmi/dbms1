@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>alter</title>
+<style type="text/css">
+h1{
+color: blue;
+text-align: center;
+top: 1px;
+position: fixed;
+}
+body{
+font-size: 17px;
+line-height: 26px;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("https://i.pinimg.com/564x/87/85/24/878524ed631849a8e81d6704fe569b9d.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#content{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70vh;
+width: 50%;
+background-color: rgba(0, 0,0,0.8);
+font-size: 17px;
+line-height: 26px;
+color: white;
+}
+</style>
+</head>
+<body>
+<h1><u>AGGREGATE</u></h1>
+<div id="content">
+<p>
+<ul>
+<li><font color="red">An SQL aggregate function calculates on a set of values and returns a single value</font></li>
+<li><font color="yellow">sum()-</font>sum(col_name):Sum all Non Null values of Column col_name $$$$$$$$
+    sum(Distinct col_name): Sum of all distinct Non-Null values </li>
+<li><font color="yellow">average() or avg()-</font>Avg(col_name) = Sum(col_name) / count(col_name)
+    $$$$$$$$Avg(Distinct col_name) = sum(Distinct col_name) / Count(Distinct col_name) </li>
+<li><font color="yellow">max()-</font>Max(col_name): Maximum value in the col_name</li>
+<li><font color="yellow">min()-</font>Min(col_name): Minimum value in the col_name column except NULL </li>
+<li><font color="yellow">count()-</font>Count(*): Returns total number of records $$$$$$$$$$
+    Count(col_name): Return number of Non Null values over the column $$$$$$$$$$$
+    Count(Distinct col_name):  Return number of distinct Non Null values over the column</li>
+</ul>
+</p>
+</div>
+</body>

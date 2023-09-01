@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>joins</title>
+<style type="text/css">
+h1{
+color: blue;
+text-align: center;
+top: 1px;
+position: fixed;
+}
+body{
+font-size: 17px;
+line-height: 26px;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("https://i.pinimg.com/236x/af/20/1b/af201b6e96144fd25289887fd7f02911.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#content{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70vh;
+width: 50%;
+background-color: rgba(0, 0,0,0.8);
+font-size: 17px;
+line-height: 26px;
+color: white;
+}
+</style>
+</head>
+<body>
+<h1><u>joins</u></h1>
+<div id="content">
+<p>
+<ul>
+<font color="red">In SQL, joins are used to combine rows from two or more tables based on a related column between them. Joins allow you to retrieve data from multiple tables in a single query, enabling you to establish relationships and fetch relevant information.</font>
+<li><font color="yellow">left join (or) left outer join-</font>The LEFT JOIN returns all the rows from the left table and the matched rows from the right table. If no match is found, NULL values are returned for the columns of the right table.</li>
+<li><font color="yellow">right join (or) right outer join-</font>2.	RIGHT JOIN (or RIGHT OUTER JOIN): The RIGHT JOIN returns all the rows from the right table and the matched rows from the left table. If no match is found, NULL values are returned for the columns of the left table.</li>
+<li><font color="yellow">full join (or) full outer join-</font>The FULL JOIN returns all the rows from both tables, including unmatched rows from both sides. If there is no match, NULL values are returned for the columns of the opposite table.</li>
+</ul>
+</p>
+</div>
+</body>
